@@ -44,3 +44,58 @@
 .paragraph-box:has-caret {
     -fx-background-color: #f2f9fc;
 }
+
+/*ESTILOS PARA  LOS SUBMENUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: rgb(50,50,50);
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+    fx-text-fill: #f5f5f5;
+}
+
+/*ESTILOS DEL COMPILADOOOOOOOOOOOOOR**/
+.keyword {
+    -fx-fill: #F69C95;
+    -fx-font-weight: bold;
+}
+.normal{
+    -fx-fill: white;
+}
+.build_in_function{
+    -fx-fill: #ff6400;
+    -fx-font-weight: bold;
+}
+.semicolon {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+.boolean{
+    -fx-fill: teal;
+    -fx-font-weight: bold;
+}
+.paren{
+    -fx-fill: firebrick;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: teal;
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: yellow;
+}
+
+.comment {
+	-fx-fill: cadetblue;
+}
+
+.paragraph-box:has-caret {
+    -fx-background-color: #f2f9fc33;
+}
